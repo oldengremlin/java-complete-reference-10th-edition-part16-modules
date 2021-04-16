@@ -1,0 +1,3 @@
+cd dist
+java --module-path . -m appstart/appstart.mymodappdemo.MyModAppDemo
+
