@@ -1,5 +1,5 @@
-# java-complete-reference-10th-edition-part16-modules
+# Java. Повне керівництво. Десяте видання.
 
-Глава 16 - Модулі
+## Глава 16 - Модулі
 
 Перенесення прикладу з книги у проект Netbeans
