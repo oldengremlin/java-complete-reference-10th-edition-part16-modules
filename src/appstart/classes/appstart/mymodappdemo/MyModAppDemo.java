@@ -59,12 +59,13 @@ public class MyModAppDemo {
             }
         }
 
-        if (binOp != null) {
+        // відійшов від книжки. try замість if (binOp != null) …
+        try {
             System.out.println(
                     "Результат виконання функції AbsMinus(12, -4):"
                     + binOp.func(12, -4)
             );
-        } else {
+        } catch (NullPointerException e) {
             System.out.println("Функції AbsMinus() не знайдено!");
         }
 
