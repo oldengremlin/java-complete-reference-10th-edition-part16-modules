@@ -47,9 +47,9 @@ public class MyModAppDemo {
         } else {
             System.out.println("Функції absPlus() не знайдено!");
         }
-        
+
         binOp = null;
-        
+
         for (BinFuncProvider bfp : ldr) {
             System.out.println(bfp.get().getName());
 
@@ -58,7 +58,7 @@ public class MyModAppDemo {
                 break;
             }
         }
-        
+
         if (binOp != null) {
             System.out.println(
                     "Результат виконання функції AbsMinus(12, -4):"
